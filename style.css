@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+h1,h2,h3{
+    font-size: 1.7rem;
+    margin-top: 1.7rem;
+    margin-bottom: 1.4rem;
+}
+p{
+    font-size: 1.6rem;
+}
+.flex{
+    display: flex;
+}
+.cenal{
+    text-align: center;
+}
+.wid{
+    max-width: 500px;
+    margin: 20px auto;
+}
+.flexal{
+    justify-content: center;
+}
+header,main,footer{
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    text-align: center;
+}
+header img{
+    width: 100px;
+    margin-top: 30px;
+}
+button{
+    padding: 15px;
+    outline: none;
+    border: none;
+    color: #fff;
+    margin-right: 10px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0px 3px 6px -1px rgba(0,0,0,0.83);
+}
+.firstbtn{
+    background-color: hsl(171, 66%, 44%);
+}
+.secbtn{
+    background-color: hsl(233, 100%, 69%);
+}
+.firstsec{
+    text-align: center;
+}
+.thirdsec{
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.thirdsec img{
+    width: 40%;
+    margin-top: 20px;
+}
+.fourthsec img{
+    display: block;
+    width: 40%;
+    margin: 10px auto;
+}
+.lastsec{
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.lastsec article{
+    
+    width: 29%;
+}
+.lastsec p{
+    color:rgb(143, 143, 143) ;
+}
+.fifth{
+    justify-content: space-around;
+    margin-top: 1.3rem;
+}
+.fifth img{
+    width:80px; 
+}
+footer{
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+.fologo img{
+    width: 50px;
+    align-self: center;
+}
+footer p{
+    margin-top: 1rem;
+}
+footer img{
+    width: 30px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:400px) {
+    h1,h2,h3{
+        margin: 1.5rem ;
+    }
+    .flex{
+        flex-direction: column;
+    }
+    .thirdsec img,.lastsec article{
+        width: 100%;
+    }
+    .thirdsec article{
+        text-align: center;
+    }
+    .thirdsec article p{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .fourthsec img{
+        width: 100%;
+    }
+    .cenal{
+        margin-top: 10em;
+    }
+    .lastsec article{
+        margin-top: 2rem;
+    }
+    .fifth{
+        
+        align-items: center;
+    }
+    .fifth img{
+        margin-top: 30px;
+        width: 100px;
+    }
+    footer{
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    footer img{
+        width: 30px;
+    }
+    footer article{
+        align-content: flex-start;
+    }
+    footer p{
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .unflex{
+        flex-direction: row;
+        margin-top: 1rem;
+    }
+}
